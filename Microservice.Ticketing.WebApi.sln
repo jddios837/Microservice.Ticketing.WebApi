@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Microservice", "Ticketing.Microservice\Ticketing.Microservice.csproj", "{9E1EED35-CFDB-4598-AD0C-DFFCBB48A01B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Models", "Shared.Models\Shared.Models.csproj", "{FFF30556-0A7F-4815-BD29-28AF8709CD31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketProcessor.Microservice", "TicketProcessor.Microservice\TicketProcessor.Microservice.csproj", "{04A56938-6C3D-47FE-897E-CD6DC4294F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E1EED35-CFDB-4598-AD0C-DFFCBB48A01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1EED35-CFDB-4598-AD0C-DFFCBB48A01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1EED35-CFDB-4598-AD0C-DFFCBB48A01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1EED35-CFDB-4598-AD0C-DFFCBB48A01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF30556-0A7F-4815-BD29-28AF8709CD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF30556-0A7F-4815-BD29-28AF8709CD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF30556-0A7F-4815-BD29-28AF8709CD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF30556-0A7F-4815-BD29-28AF8709CD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A56938-6C3D-47FE-897E-CD6DC4294F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A56938-6C3D-47FE-897E-CD6DC4294F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A56938-6C3D-47FE-897E-CD6DC4294F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A56938-6C3D-47FE-897E-CD6DC4294F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
